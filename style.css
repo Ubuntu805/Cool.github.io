@@ -1,9 +1,56 @@
 body {
-  font-family: Arial;
-  max-width: 800px;
-  margin: auto;
-  line-height: 1.6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
 }
-h1 {
-  color: #1f3a5f;
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1f3a5f, #0d1117);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #9da5b4;
+}
+
+/* POSTS GRID */
+.posts {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* CARD */
+.card {
+  background: #161b22;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: #9da5b4;
 }
